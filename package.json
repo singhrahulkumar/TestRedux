@@ -1,0 +1,36 @@
+{
+  "name": "librarymanagement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "test": "jest"
+  },
+  "jest": {
+    "setupFiles": [
+      "./enzyme-setup.js"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.3",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "devDependencies": {
+    "babel-jest": "^18.0.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^19.0.2",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^15.4.1",
+    "redux-mock-store": "^1.5.1"
+  }
+}

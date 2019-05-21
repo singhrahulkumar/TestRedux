@@ -1,0 +1,71 @@
+body{
+    color: #555;
+}
+.main-header{
+    background: #29f;
+    margin: 0 0 15px 0;
+    padding: 0 20px;
+}
+.main-header h1{
+    margin: 0;
+    padding: 10px 0 10px 0;
+    color: #fff;
+    text-align: left;
+    font-size: 24px;
+}
+label{
+    padding: 25px 2px 0;
+    display: block;
+}
+.no-float{
+    float: none;
+}
+input{
+    border-radius: 5px;
+    border: solid 1px #989898;
+    padding: 5px;
+    width: 100%!important;
+}
+.login-pane{
+    border: solid 1px #cce3f7;
+    padding-bottom: 17px;
+}
+.btn{
+    margin: 15px 0 0 0;
+}
+.logout{
+    margin-top: 6px;
+}
+.error-message{
+    color: #f10000;
+    padding: 13px 0 0 0;
+}
+.manage-btn{
+    margin-right: 15px;
+}
+.no-padding-left{
+    padding-left: 0 !important;
+}
+.no-padding-right{
+    padding-right: 0 !important;
+}
+.search-pane{
+    padding: 13px 0;
+}
+.tab-pane{
+    border-bottom: solid 1px #a6d4fb;
+    padding: 0 0 8px;
+}
+.table>thead>tr>th {
+    border: none;
+}
+.action-btn{
+    cursor: pointer;
+    color:#337ab7;
+}
+.edit-action{
+color:#337ab7;
+}
+.delete-action{
+    color:#e00000;
+}
